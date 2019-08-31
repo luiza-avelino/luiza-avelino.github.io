@@ -31,6 +31,10 @@ h1 {
   font-weight: bold;
 }
 
+img {
+  max-width: 50%;
+}
+
 p {
   color: #7f878e;
 }
@@ -99,7 +103,7 @@ nav ul li a:hover {
 
 /* PDF BUTTON */
 
-img {
+.pdf {
   display: inline-block;
   position: fixed;
   bottom: 0;
@@ -132,5 +136,9 @@ img {
   .experiencia {
     padding: 20px;
     margin: 20px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 10rem;
   }
 }
