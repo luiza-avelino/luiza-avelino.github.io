@@ -5,190 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Curriculo Online</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <title>Luiza Avelino - Desenvolvedora</title>
+    <meta name="author" content="Luiza Avelino">
+    <meta name="keywords" content="Web, Mobile, Sites, desenvolvimento">
+    <meta name="description" content="Desenvolvedora web e mobile especializada em tecnologias javascript">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f403291354.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class=" row">
-            <!--Navbar-->
-            <div class="col">
-                <nav class="navbar">
-                    <!-- Collapse button -->
-                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
-                        aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                                class="fas fa-bars fa-1x"></i></span></button>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#" class="brand">
+                Luiza Avelino
+            </a>
 
-                    <!-- Collapsible content -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"><a href="#sobre">Sobre mim</a></li>
-                            <li class="nav-item"><a href="#experiencias">Experiência</a></li>
-                            <li class="nav-item">
-                                <a href="#habilidades">Habilidades</a>
-                            </li>
-                            <li class="nav-item"><a href="#contato">Contato</a></li>
-                        </ul>
+            
+            <a class="hamburguer-menu open" id="openMenu">
+                <i class="fa fa-bars icon"></i>
+            </a>
 
-                    </div>
-                </nav>
+            <a class="hamburguer-menu close" id="closeMenu">
+                <i class="fa fa-times icon"></i>
+            </a>
+
+            <ul class="main-links hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+
+            <ul class="main-links-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero">
+            <div class="hero-info">
+                <h2 id="writer">Desenvolvedora web e mobile</h2>
+                <p>Desenvolvendo soluções ideais para fazer seu negócio crescer!</p>
+            </div>
+            <div class="actions">
+                <a class="btn btn-full" href="#contact">Entre em contato</a>
+                <a class="btn btn-outline" href="#about">Saiba mais</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <section id="sobre" class="mb-4">
-                    <div class="row">
-                        <h3>Hey, me chamo</h3>
-                    </div>
-                    <div class="row">
-                        <h1>LUIZA</h1>
-                    </div>
-                    <div class="row">
-                        <p class="sobre-text">Sou formada em técnico em informática pelo IFES e agora cursando
-                            Sistemas
-                            para internet na
-                            Unicesumar.
-                            ui Realizo manutenção e criação de sistemas para empresa que trabalho atualmente. Em busca
-                            de
-                            oportunidade em empresas focadas em desenvolvimento de software.</p>
-                    </div>
-                </section>
-            </div>
+    </header>
 
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col">
-                <section id="experiencias" class="mb-5">
-                    <div class="row mb-4">
-                        <h3>Experiências</h3>
-                    </div>
-                    <div class="row experiencia">
-                        <div class="col-3">
-                            <img src="img/programming.png" class="figura" alt="Web Logo">
-                        </div>
-                        <div class="col-9">
-                            <h4>Auxiliar de TI</h4>
-                            <h5>GDL Logistica</h5>
-                            <p>De primeira instância fui contratada para a equipe de infra e recebi a
-                                oportunidade
-                                de
-                                integrar o
-                                time de desenvolvimento. Atuando em criação de sistemas com HTML, CSS,
-                                Javascript,
-                                Node.js,
-                                PHP,
-                                Bootstrap, Python e MySql.</p>
-                        </div>
-                    </div>
-                    <div class="date">Janeiro de 2019 - Atualmente</div>
-                    <div class="row experiencia">
-                        <div class="col-3">
-                            <img src="img/cogwheel.png" class="figura" alt="Infra Logo">
-                        </div>
-                        <div class="col-9">
-                            <h4>Técnico de Suporte</h4>
-                            <h5>Nexa Tecnologia</h5>
-                            <p>Suporte nível 1 a rede, SO e hardware no contrato TechnipFMC.</p>
-                        </div>
-                    </div>
-                    <div class="date">Maio de 2018 - Setembro de 2018</div>
-                    <div class="row experiencia">
-                        <div class="col-3">
-                            <img src="img/cogwheel.png" class="figura" alt="Infra Logo">
-                        </div>
-                        <div class="col-9">
-                            <h4>SESP</h4>
-                            <h5>Estagiário Técnico</h5>
-                            <p>Suporte a rede, SO e impressoras</p>
-                        </div>
-                    </div>
-                    <div class="date">Abril de 2017 - Fevereiro de 2018</div>
-                </section>
+    <main>
+        <section id="about">
+            <h2 class="section-title">Sobre</h2>
+
+            <div class="about-info">
+                <h1>Luiza Avelino</h1>
+                <p>
+                    Apaixonado por tecnologia e ama o que faz.
+                    Formada no curso de técnico em informática pelo IFES.
+                    Tenho bom dominio sobre HTML e CSS e minha linguagem preferida é Javascript.
+                </p>
             </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col">
-                <div class="row">
-                    <section id="habilidades">
-                        <div class="row">
-                            <h3>Habilidades</h3>
-                        </div>
-                        <div class="row">
-                            <h4 class="habilidades-titulo">Linguagens de programação, frameworks e ferramentas.</h4>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <ul>
-                                    <li>
-                                        <i class="fab fa-css3-alt fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fab fa-js fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fab fa-html5 fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fab fa-php fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fab fa-bootstrap fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-database fa-2x"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fab fa-python fa-2x"></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+            <div class="tecnologies" data-anime="left">
+                <div class="technology">
+                    <img src="img/html.png" alt="HTML Icon">
+                    <p>HTML5</p>
+                </div>
+                <div class="technology">
+                    <img src="img/css.png" alt="CSS Icon">
+                    <p>CSS3</p>
+                </div>
+                <div class="technology">
+                    <img src="img/javascript.png" alt="javascript Icon">
+                    <p>Javascript</p>
+                </div>
+                <div class="technology">
+                    <img src="img/jquery.png" alt="jquery Icon">
+                    <p>Jquery</p>
+                </div>
+                <div class="technology">
+                    <img src="img/boostrap.png" alt="boostrap Icon">
+                    <p>Boostrap</p>
+                </div>
+                <div class="technology">
+                    <img src="img/git.png" alt="git Icon">
+                    <p>Git</p>
+                </div>
+                <div class="technology">
+                    <img src="img/github.png" alt="github Icon">
+                    <p>Github</p>
+                </div>
+                <div class="technology">
+                    <img src="img/react-native.png" alt="React Native Icon">
+                    <p>React Native</p>
+                </div>
+                <div class="technology">
+                    <img src="img/nodejs.jpg" alt="Node Icon">
+                    <p>Node.js</p>
                 </div>
             </div>
+        </section>
 
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col">
-                <section id="contato" class="mt-4">
-                    <div class="row">
-                        <h3 class="mb-4">Entre em contato</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <i class="far fa-envelope"></i> avelino.luiza98@gmail.com
-                        </div>
-                        <div class="col">
-                            <i class="fab fa-whatsapp"></i> +55 27 995327390
-                        </div>
-                        <div class="col">
-                            <i class="fas fa-phone"></i> +55 27 995327390
-                        </div>
-                    </div>
-                </section>
+        <section id="services">
+            <h2 class="section-title white">Serviços</h2>
+
+            <div class="services-list" data-anime="right">
+                <div class="service">
+                    <i class="fa fa-sitemap"></i>
+                    <h3>Sites institucionais e Landing pages</h3>
+                </div>
+                <div class="service">
+                    <i class="fa fa-laptop-code"></i>
+                    <h3>Sistemas em geral</h3>
+                </div>
+                <div class="service">
+                    <i class="fa fa-mobile-alt"></i>
+                    <h3>Aplicativos para android e IOS</h3>
+                </div>
             </div>
+            
+        </section>
 
-        </div>
-    </div>
+        <section id="portfolio">
+            <h2 class="section-title">Portfólio</h2>
 
-    <a href="pdf/Luiza Avelino.pdf">
-        <img src="img/pdf.png" class="pdf" alt="pdf logo">
-    </a>
+            <div class="portfolio-list" data-anime="left">
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <img src="img/clients/corporating.png" alt="corporating">
+                        <p>Fui contratada nesse projeto para aplicar responsividade com Bootstrap em algumas paginas e mudar/criar alguns componentes como o header e o footer.</p>
+                    </div>
+                    <div class="portfolio-footer">
+                        <h4>Tecnologias usadas: </h4>
+                        <ul>
+                            <li>
+                                <img src="img/html.png" alt="html icone">
+                            </li>
+                            <li>
+                                <img src="img/css.png" alt="css icone">
+                            </li>
+                            <li>
+                                <img src="img/boostrap.png" alt="boostrap icone">
+                            </li>
+                            <li>
+                                <img src="img/jquery.png" alt="jquery icone">
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://corporating.com.br/home" class="btn btn-full" target="_blank">Visite o site</a>
+                </div>
+            </div>
+        </section>
 
+        <section id="contact">
+            <h2 class="section-title white">Contato</h2>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <div class="contact-methods">
+               <p>
+                    <a href="#">
+                        <i class="fa fa-whatsapp"></i>
+                        (27) 995327390
+                    </a>
+               </p>
+               <p>
+                    <a href="mailto:avelino.luiza98@gmail.com">
+                        <i class="fa fa-envelope"></i>
+                        avelino.luiza98@gmail.com
+                    </a>
+               </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        &copy; 2020 Luiza Avelino
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
