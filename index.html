@@ -1,194 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Luiza Avelino - Desenvolvedora</title>
-    <meta name="author" content="Luiza Avelino">
-    <meta name="keywords" content="Web, Mobile, Sites, desenvolvimento">
-    <meta name="description" content="Desenvolvedora web e mobile especializada em tecnologias javascript">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="author" content="Luiza Avelino" />
+    <meta name="keywords" content="Web, Mobile, Sites, desenvolvimento" />
+    <meta
+      name="description"
+      content="Desenvolvedora web e mobile especializada em tecnologias javascript"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://kit.fontawesome.com/f403291354.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
-    <header class="main-header">
-        <nav class="main-nav">
-            <a href="#" class="brand">
-                Luiza Avelino
-            </a>
-
-            
-            <a class="hamburguer-menu open" id="openMenu">
-                <i class="fa fa-bars icon"></i>
-            </a>
-
-            <a class="hamburguer-menu close" id="closeMenu">
-                <i class="fa fa-times icon"></i>
-            </a>
-
-            <ul class="main-links hidden">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-
-            <ul class="main-links-desktop">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-        
-        <div class="hero">
-            <div class="hero-info">
-                <h2 id="writer">Desenvolvedora web e mobile</h2>
-                <p>Desenvolvendo soluções ideais para fazer seu negócio crescer!</p>
-            </div>
-            <div class="actions">
-                <a class="btn btn-full" href="#contact">Entre em contato</a>
-                <a class="btn btn-outline" href="#about">Saiba mais</a>
-            </div>
-        </div>
+  <body>
+    <header class="header">
+      <h2>
+        Olá! <br />
+        Meu nome é <br />
+        <span class="author-name">Luiza</span> <br />
+        e sou desenvolvedora web e mobile.
+      </h2>
+      <a href="#contact" class="btn btn-full">Entrar em contato</a>
     </header>
-
     <main>
-        <section id="about">
-            <h2 class="section-title">Sobre</h2>
+      <section class="about">
+        <h2 class="subtitle">
+          Sobre mim
+        </h2>
+        <p class="text-about">
+          Desenvolvo profissionalmente por cerca de 1.5 ano, entrei na área
+          através do curso de técnico em informática do Instituto Federal(IFES)
+          e atualmente estou iniciando a faculdade de análise e desenvolvimento
+          de sistemas. As linguagens/tecnologias que mais uso no momento é o
+          Javascript, mais especificamente o React Native.
+        </p>
 
-            <div class="about-info">
-                <h1>Luiza Avelino</h1>
-                <p>
-                    Apaixonado por tecnologia e ama o que faz.
-                    Formada no curso de técnico em informática pelo IFES.
-                    Tenho bom dominio sobre HTML e CSS e minha linguagem preferida é Javascript.
-                </p>
+        <div class="technologies">
+          <h3>Tecnologias que mais uso no momento</h3>
+          <div class="row">
+            <div class="technology">
+              <img src="img/git.svg" alt="Git Logo" />
             </div>
-            <div class="tecnologies" data-anime="left">
-                <div class="technology">
-                    <img src="img/html.png" alt="HTML Icon">
-                    <p>HTML5</p>
-                </div>
-                <div class="technology">
-                    <img src="img/css.png" alt="CSS Icon">
-                    <p>CSS3</p>
-                </div>
-                <div class="technology">
-                    <img src="img/javascript.png" alt="javascript Icon">
-                    <p>Javascript</p>
-                </div>
-                <div class="technology">
-                    <img src="img/jquery.png" alt="jquery Icon">
-                    <p>Jquery</p>
-                </div>
-                <div class="technology">
-                    <img src="img/boostrap.png" alt="boostrap Icon">
-                    <p>Boostrap</p>
-                </div>
-                <div class="technology">
-                    <img src="img/git.png" alt="git Icon">
-                    <p>Git</p>
-                </div>
-                <div class="technology">
-                    <img src="img/github.png" alt="github Icon">
-                    <p>Github</p>
-                </div>
-                <div class="technology">
-                    <img src="img/react-native.png" alt="React Native Icon">
-                    <p>React Native</p>
-                </div>
-                <div class="technology">
-                    <img src="img/nodejs.jpg" alt="Node Icon">
-                    <p>Node.js</p>
-                </div>
+            <div class="technology">
+              <img src="img/github.svg" alt="Github Logo" />
             </div>
-        </section>
-
-        <section id="services">
-            <h2 class="section-title white">Serviços</h2>
-
-            <div class="services-list" data-anime="right">
-                <div class="service">
-                    <i class="fa fa-sitemap"></i>
-                    <h3>Sites institucionais e Landing pages</h3>
-                </div>
-                <div class="service">
-                    <i class="fa fa-laptop-code"></i>
-                    <h3>Sistemas em geral</h3>
-                </div>
-                <div class="service">
-                    <i class="fa fa-mobile-alt"></i>
-                    <h3>Aplicativos para android e IOS</h3>
-                </div>
+            <div class="technology">
+              <img src="img/html5.svg" alt="HTML5 Logo" />
             </div>
-            
-        </section>
-
-        <section id="portfolio">
-            <h2 class="section-title">Portfólio</h2>
-
-            <div class="portfolio-list" data-anime="left">
-                <div class="portfolio-item">
-                    <div class="portfolio-header">
-                        <img src="img/clients/corporating.png" alt="corporating">
-                        <p>Fui contratada nesse projeto para aplicar responsividade com Bootstrap em algumas paginas e mudar/criar alguns componentes como o header e o footer.</p>
-                    </div>
-                    <div class="portfolio-footer">
-                        <h4>Tecnologias usadas: </h4>
-                        <ul>
-                            <li>
-                                <img src="img/html.png" alt="html icone">
-                            </li>
-                            <li>
-                                <img src="img/css.png" alt="css icone">
-                            </li>
-                            <li>
-                                <img src="img/boostrap.png" alt="boostrap icone">
-                            </li>
-                            <li>
-                                <img src="img/jquery.png" alt="jquery icone">
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="https://corporating.com.br/home" class="btn btn-full" target="_blank">Visite o site</a>
-                </div>
+          </div>
+          <div class="row">
+            <div class="technology">
+              <img src="img/javascript.svg" alt="Javascript Logo" />
             </div>
-        </section>
-
-        <section id="contact">
-            <h2 class="section-title white">Contato</h2>
-
-            <div class="contact-methods">
-               <p>
-                    <a href="#">
-                        <i class="fa fa-whatsapp"></i>
-                        (27) 995327390
-                    </a>
-               </p>
-               <p>
-                    <a href="mailto:avelino.luiza98@gmail.com">
-                        <i class="fa fa-envelope"></i>
-                        avelino.luiza98@gmail.com
-                    </a>
-               </p>
+            <div class="technology">
+              <img src="img/nodejs.svg" alt="Node Logo" />
             </div>
-        </section>
+            <div class="technology">
+              <img src="img/react.svg" alt="React Native Logo" />
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="projects">
+        <h2 class="subtitle-white">Projetos</h2>
+        <div class="projects-list">
+          <div class="project">
+            <h4 class="project-title">
+              Corporating
+            </h4>
+            <div class="project-img">
+              <img src="img/clients/corporating.png" alt="Corporating Logo" />
+            </div>
+            <p class="project-description">
+              Fui contratada para refazer componentes aplicando responsividade e
+              angular 2+;
+            </p>
+            <div class="used-techs">
+              <h5>Tecnologias usadas:</h5>
+              <ul class="row">
+                <li><img src="img/bootstrap.svg" alt="Bootstrap Logo" /></li>
+                <li><img src="img/angular.svg" alt="Bootstrap" /></li>
+                <li><img src="img/css.svg" alt="Bootstrap" /></li>
+              </ul>
+            </div>
+            <a
+              href="https://corporating.com.br/home"
+              target="_blank"
+              class="btn btn-full"
+              >Ver Projeto</a
+            >
+          </div>
+          <div class="project">
+            <h4 class="project-title">
+              Store Layout
+            </h4>
+            <div class="project-img">
+              <img src="img/react.svg" alt="React Native Project" />
+            </div>
+            <p class="project-description">
+              Projeto para treinar layout no React Native
+            </p>
+            <div class="used-techs">
+              <h5>Tecnologias usadas:</h5>
+              <ul class="row">
+                <li><img src="img/react.svg" alt="React Native Logo" /></li>
+              </ul>
+            </div>
+            <a
+              href="https://github.com/luiza-avelino/react-native-store-layout"
+              target="_blank"
+              class="btn btn-full"
+              >Ver Código</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="subtitle">Entre em contato comigo</h2>
+        <h4>Redes Sociais:</h4>
+        <ul class="social-network row">
+          <li>
+            <a target="_blank" href="https://github.com/luiza-avelino">
+              <img src="img/github.svg" alt="Github Logo" />
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/luiza-avelino-295142145/"
+            >
+              <img src="img/linkedin.svg" alt="Linkedin Logo" />
+            </a>
+          </li>
+        </ul>
+        <ul class="contacts-info">
+          <li>
+            <figure>
+              <img src="img/email.svg" alt="Email Logo" />
+              <figcaption>
+                <a target="_blank" href="mailto:avelino.luiza98@gmail.com">
+                  avelino.luiza98@gmail.com
+                </a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="img/phone.svg" alt="Phone Logo" />
+              <figcaption>
+                <a target="_blank" href="tel:+27995327390">
+                  +27 99532-7390
+                </a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </main>
-
     <footer class="main-footer">
-        &copy; 2020 Luiza Avelino
+      &copy; 2020 Luiza Avelino
     </footer>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
