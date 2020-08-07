@@ -37,7 +37,7 @@ ul {
 /* Header */
 
 .main-header {
-  background: linear-gradient(rgba(71, 31, 91, 0.247), rgba(71, 31, 91, 0.247)),
+  background: linear-gradient(rgba(71, 31, 91, 0.5), rgba(71, 31, 91, 0.8)),
     url(../img/bg.jpg) center/cover;
   height: 100vh;
 }
@@ -56,4 +56,72 @@ ul {
 .projects,
 .main-footer {
   background: var(--clr-primary);
+}
+
+/* Animações */
+
+.animated-heading {
+  animation-name: animatedTitle;
+  animation-duration: 3s;
+}
+
+.animated-subtitle {
+  animation-name: animatedSubTitle;
+  animation-duration: 3s;
+}
+
+.animated-button {
+  animation-name: animatedButton;
+  animation-duration: 3s;
+}
+
+.card-project,
+.icon {
+  transition: all 0.3s;
+}
+
+.card-project:hover,
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes animatedTitle {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animatedSubTitle {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animatedButton {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
