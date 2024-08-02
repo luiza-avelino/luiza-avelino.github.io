@@ -8,12 +8,14 @@
 ############################
 # --- Required options --- #
 ############################
+url: "http://luiza-avelino.github.io"
+baseurl: ""
 
 # Name of website
-title: My website
+title: My Journey
 
 # Your name to show in the footer
-author: Some Person
+author: Luiza Avelino
 
 ###############################################
 # --- List of links in the navigation bar --- #
